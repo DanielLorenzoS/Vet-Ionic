@@ -1,0 +1,17 @@
+ion-tab-button:hover {
+    background-color: #05828e;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+ion-tab-button:first-child:hover {
+    border-bottom-left-radius: 0;
+}
+
+ion-tab-button:last-child:hover {
+    border-bottom-right-radius: 0;
+}
+
+ion-tab-button:hover ion-icon {
+    color: #ffffff;
+}

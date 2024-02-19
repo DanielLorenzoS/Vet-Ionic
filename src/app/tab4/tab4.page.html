@@ -1,0 +1,20 @@
+<ion-header [translucent]="false" collapse="fade">
+  <ion-toolbar>
+    <ion-title>
+      Agendar Cita
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <h2>¡Seleccione el día y la hora de la cita!</h2>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-datetime dayValues="5,8">
+        <span slot="time-label">Seleccione la fecha de la cita</span>
+      </ion-datetime>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

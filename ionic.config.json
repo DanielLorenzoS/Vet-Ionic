@@ -1,0 +1,7 @@
+{
+  "name": "Vet-Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
