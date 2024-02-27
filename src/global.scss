@@ -45,3 +45,18 @@ ion-toolbar ion-title {
     padding: .5rem 0;
     font-weight: 200;
 }
+
+.tab-selected {
+    background-color: #05828e;
+    color: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tab-selected:first-child {
+    border-top-left-radius: 0;
+}
+
+.tab-selected:last-child {
+    border-top-right-radius: 0;
+}

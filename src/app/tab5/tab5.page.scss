@@ -1,0 +1,33 @@
+ion-card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    color: #222;
+    font-size: 2rem;
+}
+
+.subtitle {
+    color: #222;
+    font-size: 1.5rem;
+}
+
+ion-accordion ion-item {
+    margin: 1rem 1rem 0 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+ion-list ion-item {
+    margin: 0;
+}
+
+ion-list ion-item:nth-child(odd) {
+    --ion-item-background: #85e5ee;
+}
+
+ion-list ion-item:nth-child(even) {
+    --ion-item-background: #46c5d1;
+}

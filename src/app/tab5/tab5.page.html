@@ -1,13 +1,96 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>tab5</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" id="card">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">tab5</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-accordion-group>
+    <ion-accordion value="toys">
+      <ion-item slot="header" color="light">
+        <ion-label class="title">Juguetes</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-list>
+          <ion-item>
+            <ion-label class="subtitle">Pelota</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="subtitle">Peluche</ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="food">
+      <ion-item slot="header" color="light">
+        <ion-label class="title">Alimento</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-list>
+          <ion-item>
+            <ion-label class="subtitle">Comida seca</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="subtitle">Comida húmeda</ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="accessories">
+      <ion-item slot="header" color="light">
+        <ion-label class="title">Accesorios</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-list>
+          <ion-item>
+            <ion-label class="subtitle">Collar</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="subtitle">Correa</ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="health">
+      <ion-item slot="header" color="light">
+        <ion-label class="title">Salud</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-list>
+          <ion-item>
+            <ion-label class="subtitle">Vacunas</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="subtitle">Desparasitación</ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="aesthetics">
+      <ion-item slot="header" color="light">
+        <ion-label class="title">Estética</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-list>
+          <ion-item>
+            <ion-label class="subtitle">Baño</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="subtitle">Corte de pelo</ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="nursery">
+      <ion-item slot="header" color="light">
+        <ion-label class="title">Guardería</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-list>
+          <ion-item>
+            <ion-label class="subtitle">Estancia</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="subtitle">Paseo</ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+
 </ion-content>
